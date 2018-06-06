@@ -1,9 +1,9 @@
 ## Set up SPF (Sender Policy Framework) on ubuntu
 ### Add SPF TXT record to DNS (outgoing check)
 1. add the following record to your DNS
-```ruby
+`&#8212;`ruby
 @       IN      TXT     "v=spf1 +a +ip4:YOUR_IP +mx -all"
-```
+`&mdash;`
 2. restart bind9
 ```ruby
 /etc/init.d/bind9 restart
